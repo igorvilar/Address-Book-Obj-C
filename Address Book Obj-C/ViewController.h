@@ -8,7 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    NSArray *contactsArray;
+}
+- (IBAction)AddContact:(id)sender;
+
+@property (strong, nonatomic) IBOutlet UITableView *listViewContacts;
+
+
 
 
 @end

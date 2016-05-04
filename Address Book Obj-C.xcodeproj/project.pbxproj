@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E4763091CD8E0C80079F683 /* AddContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E4763081CD8E0C80079F683 /* AddContactViewController.m */; };
+		5E47630C1CD915B20079F683 /* Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E47630B1CD915B20079F683 /* Alert.m */; };
+		5E47630F1CD919470079F683 /* DetailsContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E47630E1CD919470079F683 /* DetailsContactViewController.m */; };
 		5E952C261CD79BFE006D63F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E952C251CD79BFE006D63F9 /* main.m */; };
 		5E952C291CD79BFE006D63F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E952C281CD79BFE006D63F9 /* AppDelegate.m */; };
 		5E952C2C1CD79BFE006D63F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E952C2B1CD79BFE006D63F9 /* ViewController.m */; };
@@ -15,6 +18,12 @@
 		5E952C341CD79BFE006D63F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E952C321CD79BFE006D63F9 /* LaunchScreen.storyboard */; };
 		5E952C3F1CD79BFE006D63F9 /* Address_Book_Obj_CTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E952C3E1CD79BFE006D63F9 /* Address_Book_Obj_CTests.m */; };
 		5E952C4A1CD79BFE006D63F9 /* Address_Book_Obj_CUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E952C491CD79BFE006D63F9 /* Address_Book_Obj_CUITests.m */; };
+		5E952C5A1CD79DBD006D63F9 /* ContactBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E952C591CD79DBD006D63F9 /* ContactBook.m */; };
+		5E952C5D1CD7C18B006D63F9 /* MySQLiteHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E952C5C1CD7C18B006D63F9 /* MySQLiteHelper.m */; };
+		5E952C601CD7C5E3006D63F9 /* ConfigurationSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E952C5F1CD7C5E3006D63F9 /* ConfigurationSet.m */; };
+		5E952C621CD7D1AB006D63F9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E952C611CD7D1AB006D63F9 /* libsqlite3.tbd */; };
+		5EC685D01CD9362900FB983E /* ContactTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC685CF1CD9362900FB983E /* ContactTableViewCell.m */; };
+		5EC939951CDA426D0048C1B3 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC939941CDA426D0048C1B3 /* EditViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E4763071CD8E0C80079F683 /* AddContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddContactViewController.h; sourceTree = "<group>"; };
+		5E4763081CD8E0C80079F683 /* AddContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddContactViewController.m; sourceTree = "<group>"; };
+		5E47630A1CD915B20079F683 /* Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Alert.h; path = Class/Alert.h; sourceTree = "<group>"; };
+		5E47630B1CD915B20079F683 /* Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Alert.m; path = Class/Alert.m; sourceTree = "<group>"; };
+		5E47630D1CD919470079F683 /* DetailsContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsContactViewController.h; sourceTree = "<group>"; };
+		5E47630E1CD919470079F683 /* DetailsContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsContactViewController.m; sourceTree = "<group>"; };
 		5E952C211CD79BFE006D63F9 /* Address Book Obj-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Address Book Obj-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E952C251CD79BFE006D63F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5E952C271CD79BFE006D63F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +66,17 @@
 		5E952C451CD79BFE006D63F9 /* Address Book Obj-CUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Address Book Obj-CUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E952C491CD79BFE006D63F9 /* Address_Book_Obj_CUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Address_Book_Obj_CUITests.m; sourceTree = "<group>"; };
 		5E952C4B1CD79BFE006D63F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E952C581CD79DBD006D63F9 /* ContactBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactBook.h; path = Class/ContactBook.h; sourceTree = "<group>"; };
+		5E952C591CD79DBD006D63F9 /* ContactBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactBook.m; path = Class/ContactBook.m; sourceTree = "<group>"; };
+		5E952C5B1CD7C18B006D63F9 /* MySQLiteHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MySQLiteHelper.h; path = Class/MySQLiteHelper.h; sourceTree = "<group>"; };
+		5E952C5C1CD7C18B006D63F9 /* MySQLiteHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MySQLiteHelper.m; path = Class/MySQLiteHelper.m; sourceTree = "<group>"; };
+		5E952C5E1CD7C5E3006D63F9 /* ConfigurationSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConfigurationSet.h; path = Class/ConfigurationSet.h; sourceTree = "<group>"; };
+		5E952C5F1CD7C5E3006D63F9 /* ConfigurationSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConfigurationSet.m; path = Class/ConfigurationSet.m; sourceTree = "<group>"; };
+		5E952C611CD7D1AB006D63F9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		5EC685CE1CD9362900FB983E /* ContactTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTableViewCell.h; sourceTree = "<group>"; };
+		5EC685CF1CD9362900FB983E /* ContactTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTableViewCell.m; sourceTree = "<group>"; };
+		5EC939931CDA426C0048C1B3 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		5EC939941CDA426D0048C1B3 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E952C621CD7D1AB006D63F9 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +108,7 @@
 		5E952C181CD79BFE006D63F9 = {
 			isa = PBXGroup;
 			children = (
+				5E952C611CD7D1AB006D63F9 /* libsqlite3.tbd */,
 				5E952C231CD79BFE006D63F9 /* Address Book Obj-C */,
 				5E952C3D1CD79BFE006D63F9 /* Address Book Obj-CTests */,
 				5E952C481CD79BFE006D63F9 /* Address Book Obj-CUITests */,
@@ -101,10 +129,19 @@
 		5E952C231CD79BFE006D63F9 /* Address Book Obj-C */ = {
 			isa = PBXGroup;
 			children = (
+				5E952C571CD79DA0006D63F9 /* Class */,
 				5E952C271CD79BFE006D63F9 /* AppDelegate.h */,
 				5E952C281CD79BFE006D63F9 /* AppDelegate.m */,
 				5E952C2A1CD79BFE006D63F9 /* ViewController.h */,
 				5E952C2B1CD79BFE006D63F9 /* ViewController.m */,
+				5E4763071CD8E0C80079F683 /* AddContactViewController.h */,
+				5E4763081CD8E0C80079F683 /* AddContactViewController.m */,
+				5E47630D1CD919470079F683 /* DetailsContactViewController.h */,
+				5E47630E1CD919470079F683 /* DetailsContactViewController.m */,
+				5EC685CE1CD9362900FB983E /* ContactTableViewCell.h */,
+				5EC685CF1CD9362900FB983E /* ContactTableViewCell.m */,
+				5EC939931CDA426C0048C1B3 /* EditViewController.h */,
+				5EC939941CDA426D0048C1B3 /* EditViewController.m */,
 				5E952C2D1CD79BFE006D63F9 /* Main.storyboard */,
 				5E952C301CD79BFE006D63F9 /* Assets.xcassets */,
 				5E952C321CD79BFE006D63F9 /* LaunchScreen.storyboard */,
@@ -138,6 +175,21 @@
 				5E952C4B1CD79BFE006D63F9 /* Info.plist */,
 			);
 			path = "Address Book Obj-CUITests";
+			sourceTree = "<group>";
+		};
+		5E952C571CD79DA0006D63F9 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				5E47630A1CD915B20079F683 /* Alert.h */,
+				5E47630B1CD915B20079F683 /* Alert.m */,
+				5E952C581CD79DBD006D63F9 /* ContactBook.h */,
+				5E952C591CD79DBD006D63F9 /* ContactBook.m */,
+				5E952C5B1CD7C18B006D63F9 /* MySQLiteHelper.h */,
+				5E952C5C1CD7C18B006D63F9 /* MySQLiteHelper.m */,
+				5E952C5E1CD7C5E3006D63F9 /* ConfigurationSet.h */,
+				5E952C5F1CD7C5E3006D63F9 /* ConfigurationSet.m */,
+			);
+			name = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +322,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E4763091CD8E0C80079F683 /* AddContactViewController.m in Sources */,
+				5E47630F1CD919470079F683 /* DetailsContactViewController.m in Sources */,
+				5EC685D01CD9362900FB983E /* ContactTableViewCell.m in Sources */,
+				5E952C5D1CD7C18B006D63F9 /* MySQLiteHelper.m in Sources */,
+				5E47630C1CD915B20079F683 /* Alert.m in Sources */,
 				5E952C2C1CD79BFE006D63F9 /* ViewController.m in Sources */,
 				5E952C291CD79BFE006D63F9 /* AppDelegate.m in Sources */,
 				5E952C261CD79BFE006D63F9 /* main.m in Sources */,
+				5EC939951CDA426D0048C1B3 /* EditViewController.m in Sources */,
+				5E952C5A1CD79DBD006D63F9 /* ContactBook.m in Sources */,
+				5E952C601CD7C5E3006D63F9 /* ConfigurationSet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +558,7 @@
 				5E952C501CD79BFE006D63F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E952C511CD79BFE006D63F9 /* Build configuration list for PBXNativeTarget "Address Book Obj-CTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +567,7 @@
 				5E952C531CD79BFE006D63F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E952C541CD79BFE006D63F9 /* Build configuration list for PBXNativeTarget "Address Book Obj-CUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +576,7 @@
 				5E952C561CD79BFE006D63F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
